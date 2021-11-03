@@ -1,6 +1,6 @@
 # COVID-19 Pandemic Time Series Modeling
-Created by Anushna Prakash
-DATAQ 512 - Human-Centered Data Science
+Created by Anushna Prakash  
+DATA 512 - Human-Centered Data Science  
 
 During the last two years we all have been experiencing a global pandemic. This has been tragic and disruptive to many countries and has taken a deep personal toll on many individuals and their families.  
 One aspect that has been hard to miss in the last two years is the datafication of the pandemic. That is, many aspects of the individual toll of the pandemic have been collected, aggregated and re-represented as data. This datafication gives us the privilege to examine the pandemic from potentially many different perspectives to understand how it has changed lives and how it has changed society. To be honest, we are actually at the very beginning of understanding and comprehending these impacts.  
