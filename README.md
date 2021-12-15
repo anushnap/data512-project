@@ -85,14 +85,32 @@ The data is structured as below for both data sets, with multiple columns for ea
 
 - The New York Times mask compliance [survey data.](https://github.com/nytimes/covid-19-data/tree/master/mask-use)  
 
-| COUNTYFP | NEVER | RARELY | SOMETIMES | FREQUENTLY | ALWAYS |  
-| -------- | ----- | ------ | --------- | ---------- | ------ |  
-| 4-digit unique county identifier | Percentage of users responding  | 2,047.56 | 790.57 | 3,186,989 | 176,757 | Santa Ana |  
+| Column name | Description |  
+| ----------- | ----------- |  
+| COUNTYFP | Numeric state and county identifier |  
+| NEVER | Percentage of respondants responding "never" wearing masks |  
+| RARELY | Percentage of respondants responding "rarely" wearing masks |  
+| SOMETIMES | Percentage of respondants responding "sometimes" wearing masks |  
+| FREQUENTLY | Percentage of respondants responding "frequently" wearing masks |  
+| ALWAYS | Percentage of respondants responding "always" wearing masks |  
 
 - Deaths from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/death-profiles-by-county/resource/2e546f88-bba8-4d77-846a-7fb77846cac6)  
 - Births from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/live-birth-profiles-by-county/resource/94a186da-7184-427b-b0b5-224bb0a05cd8)  
-## Cleaned Data
-There are several cleaned data files available under the `data_clean` folder. 
+Both tables follow the below column format:  
+
+| Column name | Description |  
+| ----------- | ----------- |  
+| County | County name |  
+| Year | YYYY year format |  
+| Month | MM month format |  
+| Strata | The intersectional cut of data, for example "all" or "Black" |  
+| Cause (DEATHS) | The intersectional cut of deahts, for example "Accidents" |  
+| Count | Count of incidents |  
+
 
 ## Licensing
-WIP
+- The Johns Hopkins data is available under the [creative commons license](https://creativecommons.org/licenses/by/4.0/) which means the data is available with proper attribution.  
+- The CDC data is available under the below citation:  
+CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, the CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program, and Max Gakh, Assistant Professor, School of Public Health, University of Nevada, Las Vegas, “U.S. State and Territorial Orders Requiring Masks in Public,” (August 15, 2021).  
+- The New York Times mask data is available under this [permissive license](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) which is highly permissive with proper attribution.  
+- The CHHS data is available under [license](https://data.chhs.ca.gov/pages/terms) with attribution.  
