@@ -1,3 +1,5 @@
+[https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white]  
+
 # COVID-19 Pandemic Time Series Modeling
 Created by Anushna Prakash  
 
@@ -17,7 +19,6 @@ Of this data, I ask:
 - How did the pandemic affect the number of accident-related deaths?  
 - How did the pandemic affect the number of suicide-related deaths?  
 - How did the pandemic affect the number births?  
-
 
 ## Structure
 The folder is structured as shown below.  
