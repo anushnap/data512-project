@@ -114,6 +114,17 @@ Both tables follow the below column format:
 | Count | Count of incidents |  
 
 
+## Results  
+
+From this analysis, I discovered that there is evidence for:  
+- Higher non-COVID-related deaths  
+- Lower births  
+- Higher accidents  
+
+And that there is not enough evidence to support any change in in the number of suicides.  
+
+Do these results surprise you? They surprised me too! Take a look at my code to reproduce the results or to complete the same analysis on a different county. Do you find the same trends?  
+
 ## Licensing
 - The Johns Hopkins data is available under the [creative commons license](https://creativecommons.org/licenses/by/4.0/) which means the data is available with proper attribution.  
 - The CDC data is available under the below citation:  
