@@ -56,9 +56,15 @@ The data is downloaded from the below sources:
 - The RAW_us_deaths.csv file from the [Kaggle repository of John Hopkins University COVID-19 data.](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_deaths.csv)  
 The data is structured as below for both data sets, with multiple columns for each additional day of data (wide format):  
 
-| Province_State | Admin2 | UID | iso2 | iso3 | code3 | FIPS | Country_Region | Lat | Long | Combined_Key |
-| -------------- | ------ | --- | ---- | ---- | ----- | ---- | -------------- | --- | ---- | ------------ |  
-| The province or state | County name | unique identifier | unused geography code | unused geography code | unused geography code | 5-digit Unique county identifier | Unused geography code | Latitude | Longitude | unused geography code |  
+| Column name | Description |  
+| ----------- | ----------- |  
+| Province_State | Province or state |  
+| Admin2 | Country |  
+| UID | Unique identifier |  
+| iso2 | Unused geography code |  
+| iso3 | Unused geography code |  
+| code3 | Unused geography code |  
+| FIPS | Unique 5-digit identifier |  
 
 - The [CDC dataset](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i) of masking mandates by county. **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**  
 
@@ -67,6 +73,11 @@ The data is structured as below for both data sets, with multiple columns for ea
 | The tribe or state | County name | unique identifier for state | unique identifier for county | YYYY-MM-DD date | Type of mandate order | Boolean identifier | Authority | URL | Citation |  
 
 - The New York Times mask compliance [survey data.](https://github.com/nytimes/covid-19-data/tree/master/mask-use)  
+
+| COUNTYFP | NEVER | RARELY | SOMETIMES | FREQUENTLY | ALWAYS |  
+| -------- | ----- | ------ | --------- | ---------- | ------ |  
+| 4-digit unique county identifier | Percentage of users responding  | 2,047.56 | 790.57 | 3,186,989 | 176,757 | Santa Ana |  
+
 - Deaths from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/death-profiles-by-county/resource/2e546f88-bba8-4d77-846a-7fb77846cac6)  
 - Births from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/live-birth-profiles-by-county/resource/94a186da-7184-427b-b0b5-224bb0a05cd8)  
 ## Cleaned Data
