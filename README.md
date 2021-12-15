@@ -1,15 +1,22 @@
 # COVID-19 Pandemic Time Series Modeling
 Created by Anushna Prakash  
-DATA 512 - Human-Centered Data Science  
 
 During the last two years we all have been experiencing a global pandemic. This has been tragic and disruptive to many countries and has taken a deep personal toll on many individuals and their families.  
+
 One aspect that has been hard to miss in the last two years is the datafication of the pandemic. That is, many aspects of the individual toll of the pandemic have been collected, aggregated and re-represented as data. This datafication gives us the privilege to examine the pandemic from potentially many different perspectives to understand how it has changed lives and how it has changed society. To be honest, we are actually at the very beginning of understanding and comprehending these impacts.  
-During our Course Project we are going to begin taking a look at some of the social aspects of the pandemic by conducting a human centered data science analysis of some available COVID-19 data.  
-My specific assignment was on the below county:
+
+During our Course Project we are going to begin taking a look at some of the social aspects of the pandemic by conducting a human centered data science analysis of some available COVID-19 data. My specific assignment was on the below county:
 
 | County | State | Area_km^2| Area_mi^2 | Population_2020_Census | Population_Increase_from_2010 | County Seat |  
 | ------ | ----- | -------- | --------- | ---------------------- | ----------------------------- | ----------- |  
 | Orange | California | 2,047.56 | 790.57 | 3,186,989 | 176,757 | Santa Ana |  
+
+Of this data, I ask:
+- How did mask mandates affect daily confirmed coronavirus cases in Orange county?  
+- How did the pandemic affect average non-COVID-related deaths?  
+- How did the pandemic affect the number of accident-related deaths?  
+- How did the pandemic affect the number of suicide-related deaths?  
+- How did the pandemic affect the number births?  
 
 
 ## Structure
