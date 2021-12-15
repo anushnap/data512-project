@@ -65,12 +65,23 @@ The data is structured as below for both data sets, with multiple columns for ea
 | iso3 | Unused geography code |  
 | code3 | Unused geography code |  
 | FIPS | Unique 5-digit identifier |  
+| Lat | Latitude |  
+| Long_ | Longitude |  
 
 - The [CDC dataset](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i) of masking mandates by county. **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**  
 
-| State_Tribe_Territory | County_Name | FIPS_State | FIPS_County | date | order_code | Face_Masks_Required_in_Public | Source_of_Action | URL | Citation |
-| -------------- | ------ | --- | ---- | ---- | ----- | ---- | -------------- | --- | ---- |  
-| The tribe or state | County name | unique identifier for state | unique identifier for county | YYYY-MM-DD date | Type of mandate order | Boolean identifier | Authority | URL | Citation |  
+| Column name | Description |  
+| ----------- | ----------- |  
+| State_Tribe_Territory | State or tribe name |  
+| County_Name | County name |  
+| FIPS_State | Numeric state identifier |  
+| FIPS_County | Numeric county identifier |  
+| date | YYYY-MM-DD format |  
+| order_code | Order type |  
+| Face_Masks_Required_in_Public | Boolean identifier |  
+| Source_of_Action | Authority |  
+| URL | URL |  
+| Citation | Citation |  
 
 - The New York Times mask compliance [survey data.](https://github.com/nytimes/covid-19-data/tree/master/mask-use)  
 
