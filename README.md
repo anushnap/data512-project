@@ -1,4 +1,4 @@
-[https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white]  
+![anushnap@uw.edu](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  
 
 # COVID-19 Pandemic Time Series Modeling
 Created by Anushna Prakash  
