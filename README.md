@@ -58,9 +58,14 @@ The data is structured as below for both data sets, with multiple columns for ea
 
 | Province_State | Admin2 | UID | iso2 | iso3 | code3 | FIPS | Country_Region | Lat | Long | Combined_Key |
 | -------------- | ------ | --- | ---- | ---- | ----- | ---- | -------------- | --- | ---- | ------------ |  
-| The province or state | County name | unique identifier | unused geography code | unused geography code | unused geography code | Unique county identifier | Unused geography code | Latitude | Longitude | unused geography code |  
+| The province or state | County name | unique identifier | unused geography code | unused geography code | unused geography code | 5-digit Unique county identifier | Unused geography code | Latitude | Longitude | unused geography code |  
 
 - The [CDC dataset](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i) of masking mandates by county. **THIS DATA IS NOT INCLUDED IN THIS REPOSITORY AS THE FILESIZE WAS TOO LARGE. PLEASE DOWNLOAD IT DIRECTLY FROM THE LINK LOCALLY**  
+
+| State_Tribe_Territory | County_Name | FIPS_State | FIPS_County | date | order_code | Face_Masks_Required_in_Public | Source_of_Action | URL | Citation |
+| -------------- | ------ | --- | ---- | ---- | ----- | ---- | -------------- | --- | ---- |  
+| The tribe or state | County name | unique identifier for state | unique identifier for county | YYYY-MM-DD date | Type of mandate order | Boolean identifier | Authority | URL | Citation |  
+
 - The New York Times mask compliance [survey data.](https://github.com/nytimes/covid-19-data/tree/master/mask-use)  
 - Deaths from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/death-profiles-by-county/resource/2e546f88-bba8-4d77-846a-7fb77846cac6)  
 - Births from [California Health & Human Services Department](https://data.chhs.ca.gov/dataset/live-birth-profiles-by-county/resource/94a186da-7184-427b-b0b5-224bb0a05cd8)  
